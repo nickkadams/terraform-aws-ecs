@@ -1,0 +1,13 @@
+[
+  {
+    "name": "ci-coordinator",
+    "image": "registry.gitlab.com/tmaczukin-test-projects/fargate-driver-debian:latest",
+    "essential": true,
+    "portMappings": [
+      {
+        "protocol": "tcp",
+        "containerPort": 22
+      }
+    ]
+  }
+]
